@@ -12,7 +12,7 @@ setInterval(function() {
 		stathat.trackEZValue("daniel.lauzon@gmail.com", "iMetrical-"+scope, v, function(status, json) {
 			// console.log("status: " + status);
 			// console.log("json:   " + json);
-			console.log(scope, t, v, "status: " + status);
+			console.log(scope, t, "(status:" + status+")",v+" Watts");
 		});
 	});
 }, 1000);
